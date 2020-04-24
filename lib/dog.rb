@@ -12,7 +12,8 @@ class Dog
   end
   
   def self.print_all
-    puts "#{@@all}"
+    names_print = @@all.split" "
+    puts names_print
   end
   
   def self.clear_all
